@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #202124;
+}
+body{
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 1rem 2rem;
+}
+button, input{
+    color: inherit;
+    font-family: inherit;
+}
+
+.flex{
+    display: flex
+}
+.space-btwn{
+    justify-content: space-between;
+}
+input{
+    margin: 0;
+    padding: 0
+}
+
+input[type="text"]{
+    width: 100%;
+    text-align: left;
+}
+input[type="submit"]{
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+body{
+    padding-inline: 2rem;
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.adv-container{
+    height: 100vh;
+}
+.main{
+    width: 100%;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.nav > a{
+    padding: 1rem;
+}
+
+form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.adv-form{
+    display: block
+}
+
+.form-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.adv-form-group{
+    display: block
+}
+
+.form-input{
+    display: block;
+    margin-top: 1rem;
+}
+
+.search{
+    padding: 5px 8px 0 14px;
+    border-radius: 24px;
+    min-height: 44px;
+    max-width: 50%;
+    min-width: 700px;
+    border: solid;
+}
+.submitBtn{
+    margin-inline: auto;
+}
+
+.adv-btn{
+    user-select: none;
+    line-height: 100%;
+    height: 30px;
+    min-width: 120px;
+    float: right;
+    margin: 10px 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 92px;
+    height: calc(100% - 560px);
+    max-height: 290px;
+}
+.google_logo{
+    text-align: center;
+    position: relative;
+    max-height: 92px;
+    height: 100%;
+    margin-top: auto;
+}
+.google_logo > img{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+    height: 92px;
+    aspect-ratio: auto 272 / 92;
+}
+
+.google_logo > span{
+    color: #4487f6;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: absolute;
+    left: 215px;
+    bottom: 0;
+    white-space: nowrap;
+}
+
+.app-bar{
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+.app-bar label{
+    margin-left: 10px;
+}
+.border{
+    border-bottom: 1px solid #ebebeb;
+}
+.adv-main{
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+
+.adv-header{
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    font-size: 16px;
+    min-height: 42px;
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+.adv-label-container{
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.adv-input-container{
+    padding-right: 16px;
+}
+.adv-input{
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+
+.label-space{
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    height: 42px;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+
+.adv-input-space{
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+}
